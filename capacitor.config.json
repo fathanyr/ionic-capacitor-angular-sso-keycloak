@@ -1,0 +1,14 @@
+{
+  "appId": "com.ionic.sso",
+  "appName": "Ionic 5 Capacitor SSO",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000
+    },
+    "Keyboard": {
+      "resize": "ionic"
+    }
+  }
+}

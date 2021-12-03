@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-row>
+    <ion-col class="ion-padding">
+      <ion-button expand="block" color="primary" (click)="login()">Login</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-card *ngIf="events$ | async as event">
+    <ion-card-header>
+      Action Data
+    </ion-card-header>
+    <ion-card-content>
+      {{event | json}}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
